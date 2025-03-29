@@ -4,6 +4,15 @@ VCS_OPTIONS += -debug_all
 VCS_OPTIONS += +v2k
 VCS_OPTIONS += -sverilog
 VCS_OPTIONS += -l compile.log
+VCS_OPTIONS += -debug_acc+all
+VCS_OPTIONS += -licqueue
+VCS_OPTIONS += -lca
+VCS_OPTIONS += -sverilog
+VCS_OPTIONS += -assert svaext
+VCS_OPTIONS += -kdb
+
+# VCS_FLAGS    = +incdir+$(PWD)/../hvl/vcs -licqueue -full64 -lca -sverilog -timescale=1ps/1ps -debug_acc+all -kdb -suppress=LCA_FEATURES_ENABLED -msg_config=../vcs_warn.config -assert svaext
+
 
 ifdef GATES
 VCS_OPTIONS += -timescale=1ps/1ps
