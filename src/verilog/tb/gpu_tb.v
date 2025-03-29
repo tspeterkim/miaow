@@ -385,7 +385,12 @@ module gpu_tb();
 	//waveforms
 	initial begin
 		if ($test$plusargs("dump_waveforms")) begin
-			$vcdpluson(0,gpu_tb);
+			// $vcdpluson(0,gpu_tb); // Old way of dumping waveforms
+			
+			$fsdbDumpfile("wave.fsdb");
+            $fsdbDumpvars("+all"); 
+            $fsdbDumpvars(0);        
+			
 			if ($test$plusargs("dump_glitches")) begin
 				$vcdplusdeltacycleon;
 				$vcdplusglitchon;
