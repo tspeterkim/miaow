@@ -1,0 +1,610 @@
+#######################################################################################
+# log primitive debug message of FSDB dumping                                         #
+# This is for R&D to analyze when there are issues happening when FSDB dump           #
+#######################################################################################
+ANF: vcsd_get_serial_mode_status('../simv: undefined symbol: vcsd_get_serial_mode_status')
+ANF: vcsd_enable_sva_success_callback('../simv: undefined symbol: vcsd_enable_sva_success_callback')
+ANF: vcsd_disable_sva_success_callback('../simv: undefined symbol: vcsd_disable_sva_success_callback')
+ANF: vcsd_get_power_scope_name('../simv: undefined symbol: vcsd_get_power_scope_name')
+ANF: vcsd_dump_var_vpdg('../simv: undefined symbol: vcsd_dump_var_vpdg')
+ANF: vcsd_begin_no_value_var_info('../simv: undefined symbol: vcsd_begin_no_value_var_info')
+ANF: vcsd_end_no_value_var_info('../simv: undefined symbol: vcsd_end_no_value_var_info')
+ANF: vcsd_remove_xprop_merge_mode_callback('../simv: undefined symbol: vcsd_remove_xprop_merge_mode_callback')
+ANF: vhpi_get_cb_info('../simv: undefined symbol: vhpi_get_cb_info')
+ANF: vhpi_free_handle('../simv: undefined symbol: vhpi_free_handle')
+ANF: vhpi_fetch_vcsd_handle('../simv: undefined symbol: vhpi_fetch_vcsd_handle')
+ANF: vhpi_fetch_vpi_handle('../simv: undefined symbol: vhpi_fetch_vpi_handle')
+ANF: vhpi_has_verilog_parent('../simv: undefined symbol: vhpi_has_verilog_parent')
+ANF: vhpi_is_verilog_scope('../simv: undefined symbol: vhpi_is_verilog_scope')
+ANF: scsd_xprop_is_enabled('../simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted('../simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue('../simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue('../simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue('../simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: scsd_xprop_register_merge_mode_cb('../simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
+ANF: scsd_xprop_delete_merge_mode_cb('../simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
+ANF: scsd_xprop_get_merge_mode('../simv: undefined symbol: scsd_xprop_get_merge_mode')
+ANF: scsd_thread_get_info('../simv: undefined symbol: scsd_thread_get_info')
+ANF: scsd_thread_vc_init('../simv: undefined symbol: scsd_thread_vc_init')
+ANF: scsd_master_set_delta_sync_cbk('../simv: undefined symbol: scsd_master_set_delta_sync_cbk')
+ANF: scsd_fgp_get_fsdb_cores('../simv: undefined symbol: scsd_fgp_get_fsdb_cores')
+ANF: scsd_fgp_get_is_cpu_affinity_disabled('../simv: undefined symbol: scsd_fgp_get_is_cpu_affinity_disabled')
+ANF: vhdi_dt_get_type('../simv: undefined symbol: vhdi_dt_get_type')
+ANF: vhdi_dt_get_key('../simv: undefined symbol: vhdi_dt_get_key')
+ANF: vhdi_dt_get_vhdl_enum_info('../simv: undefined symbol: vhdi_dt_get_vhdl_enum_info')
+ANF: vhdi_dt_get_vhdl_physical_info('../simv: undefined symbol: vhdi_dt_get_vhdl_physical_info')
+ANF: vhdi_dt_get_vhdl_array_info('../simv: undefined symbol: vhdi_dt_get_vhdl_array_info')
+ANF: vhdi_dt_get_vhdl_record_info('../simv: undefined symbol: vhdi_dt_get_vhdl_record_info')
+ANF: vhdi_dt_get_vhdl_integer_range_info('../simv: undefined symbol: vhdi_dt_get_vhdl_integer_range_info')
+ANF: vhdi_def_traverse_module('../simv: undefined symbol: vhdi_def_traverse_module')
+ANF: vhdi_def_traverse_scope('../simv: undefined symbol: vhdi_def_traverse_scope')
+ANF: vhdi_def_traverse_variable('../simv: undefined symbol: vhdi_def_traverse_variable')
+ANF: vhdi_def_get_module_id_by_vhpi('../simv: undefined symbol: vhdi_def_get_module_id_by_vhpi')
+ANF: vhdi_def_get_handle_by_module_id('../simv: undefined symbol: vhdi_def_get_handle_by_module_id')
+ANF: vhdi_def_get_variable_info_by_vhpi('../simv: undefined symbol: vhdi_def_get_variable_info_by_vhpi')
+ANF: vhdi_def_free('../simv: undefined symbol: vhdi_def_free')
+ANF: vhdi_ist_traverse_scope('../simv: undefined symbol: vhdi_ist_traverse_scope')
+ANF: vhdi_ist_traverse_variable('../simv: undefined symbol: vhdi_ist_traverse_variable')
+ANF: vhdi_ist_convert_by_vhpi('../simv: undefined symbol: vhdi_ist_convert_by_vhpi')
+ANF: vhdi_ist_clone('../simv: undefined symbol: vhdi_ist_clone')
+ANF: vhdi_ist_free('../simv: undefined symbol: vhdi_ist_free')
+ANF: vhdi_ist_hash_key('../simv: undefined symbol: vhdi_ist_hash_key')
+ANF: vhdi_ist_compare('../simv: undefined symbol: vhdi_ist_compare')
+ANF: vhdi_ist_get_value_addr('../simv: undefined symbol: vhdi_ist_get_value_addr')
+ANF: vhdi_set_scsd_callback('../simv: undefined symbol: vhdi_set_scsd_callback')
+ANF: vhdi_cbk_set_force_callback('../simv: undefined symbol: vhdi_cbk_set_force_callback')
+ANF: vhdi_trigger_init_force('../simv: undefined symbol: vhdi_trigger_init_force')
+ANF: vhdi_ist_check_scsd_callback('../simv: undefined symbol: vhdi_ist_check_scsd_callback')
+ANF: vhdi_ist_add_scsd_callback('../simv: undefined symbol: vhdi_ist_add_scsd_callback')
+ANF: vhdi_ist_remove_scsd_callback('../simv: undefined symbol: vhdi_ist_remove_scsd_callback')
+ANF: vhdi_ist_get_scsd_user_data('../simv: undefined symbol: vhdi_ist_get_scsd_user_data')
+ANF: vhdi_add_time_change_callback('../simv: undefined symbol: vhdi_add_time_change_callback')
+ANF: vhdi_get_real_value_by_value_addr('../simv: undefined symbol: vhdi_get_real_value_by_value_addr')
+ANF: vhdi_get_64_value_by_value_addr('../simv: undefined symbol: vhdi_get_64_value_by_value_addr')
+ANF: vhdi_xprop_inst_is_promoted('../simv: undefined symbol: vhdi_xprop_inst_is_promoted')
+ANF: vdi_ist_convert_by_vhdi('../simv: undefined symbol: vdi_ist_convert_by_vhdi')
+ANF: vhdi_ist_get_module_id('../simv: undefined symbol: vhdi_ist_get_module_id')
+ANF: vhdi_refine_foreign_scope_type('../simv: undefined symbol: vhdi_refine_foreign_scope_type')
+ANF: vhdi_flush_callback('../simv: undefined symbol: vhdi_flush_callback')
+ANF: vhdi_set_orig_name('../simv: undefined symbol: vhdi_set_orig_name')
+ANF: vhdi_set_dump_pt('../simv: undefined symbol: vhdi_set_dump_pt')
+ANF: vhdi_set_int_subtype('../simv: undefined symbol: vhdi_set_int_subtype')
+ANF: vhdi_set_fixed_point('../simv: undefined symbol: vhdi_set_fixed_point')
+ANF: vhdi_get_fsdb_option('../simv: undefined symbol: vhdi_get_fsdb_option')
+ANF: vhdi_fgp_get_mode('../simv: undefined symbol: vhdi_fgp_get_mode')
+ANF: vhdi_node_register_composite_var('../simv: undefined symbol: vhdi_node_register_composite_var')
+ANF: vhdi_node_analysis('../simv: undefined symbol: vhdi_node_analysis')
+ANF: vhdi_node_id('../simv: undefined symbol: vhdi_node_id')
+ANF: vhdi_node_ist_check_scsd_callback('../simv: undefined symbol: vhdi_node_ist_check_scsd_callback')
+ANF: vhdi_node_ist_add_scsd_callback('../simv: undefined symbol: vhdi_node_ist_add_scsd_callback')
+ANF: vhdi_node_ist_get_value_addr('../simv: undefined symbol: vhdi_node_ist_get_value_addr')
+ANF: vhdi_enc_def_traverse_module('../simv: undefined symbol: vhdi_enc_def_traverse_module')
+ANF: vhdi_enc_def_traverse_scope('../simv: undefined symbol: vhdi_enc_def_traverse_scope')
+ANF: vhdi_enc_def_traverse_variable('../simv: undefined symbol: vhdi_enc_def_traverse_variable')
+ANF: vhdi_enc_ist_traverse_scope('../simv: undefined symbol: vhdi_enc_ist_traverse_scope')
+ANF: vhdi_enc_ist_traverse_variable('../simv: undefined symbol: vhdi_enc_ist_traverse_variable')
+ANF: vhdi_enc_ist_get_module_id('../simv: undefined symbol: vhdi_enc_ist_get_module_id')
+ANF: vhdi_enc_def_get_handle_by_module_id('../simv: undefined symbol: vhdi_enc_def_get_handle_by_module_id')
+VCS compile option:
+ option[0]: ../simv
+ option[1]: +dump_waveforms=1
+ option[2]: +KILLTIME=100000000000
+ option[3]: /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/bin/vcs1
+ option[4]: -Mcc=gcc
+ option[5]: -Mcplusplus=g++
+ option[6]: -Masflags=
+ option[7]: -Mcfl= -pipe -fPIC -O -I/software/Synopsys-2024_x86_64/vcs/W-2024.09/include 
+ option[8]: -Mxllcflags=
+ option[9]: -Mxcflags= -pipe -fPIC -I/software/Synopsys-2024_x86_64/vcs/W-2024.09/include
+ option[10]: -Mldflags= -rdynamic 
+ option[11]: -Mout=simv
+ option[12]: -Mamsrun=
+ option[13]: -Mvcsaceobjs=
+ option[14]: -Mobjects= /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/libvirsim.so /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/liberrorinf.so /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/libsnpsmalloc.so /software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/libvfs.so 
+ option[15]: -Mexternalobj=
+ option[16]: -Msaverestoreobj=/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/vcs_save_restore_new.o
+ option[17]: -Mcrt0=
+ option[18]: -Mcrtn=
+ option[19]: -Mcsrc=wave.c ../rtl/memory/cachesim.c ../rtl/tracemon/tracemon.c 
+ option[20]: -Msyslibs=/software/Synopsys-2024_x86_64/verdi/W-2024.09/share/PLI/VCS/LINUX64/pli.a -ldl 
+ option[21]: -l
+ option[22]: compile.log
+ option[23]: -full64
+ option[24]: +libext+.v
+ option[25]: -debug_access+all+bc
+ option[26]: +vpi
+ option[27]: +vcsd
+ option[28]: +memcbk
+ option[29]: +itf+/software/Synopsys-2024_x86_64/vcs/W-2024.09/linux64/lib/vcsdp.tab
+ option[30]: -debug_region+cell
+ option[31]: +v2k
+ option[32]: -debug_acc+all
+ option[33]: +vcs+lic+wait
+ option[34]: -lca
+ option[35]: 
+ option[36]: 
+ option[37]: -kdb
+ option[38]: -Xufe=2steps
+ option[39]: -kdb=common_elab
+ option[40]: -Xufe=2steps
+ option[41]: -timescale=1ns/1ns
+ option[42]: +lint=all
+ option[43]: -kdb=common_elab
+ option[44]: -Xufe=2steps
+ option[45]: -kdb=common_elab
+ option[46]: -Xufe=2steps
+ option[47]: -picarchive
+ option[48]: -P
+ option[49]: /software/Synopsys-2024_x86_64/verdi/W-2024.09/share/PLI/VCS/LINUX64/verdi.tab
+ option[50]: -fsdb
+ option[51]: -sverilog
+ option[52]: -sverilog
+ option[53]: -gen_obj
+ option[54]: ../rtl/common/global_definitions.v
+ option[55]: ../rtl/common/issue_definitions.v
+ option[56]: ../rtl/alu/alu_definitions.v
+ option[57]: ../rtl/lsu/lsu_definitions.v
+ option[58]: ../rtl/decode/decode_definitions.v
+ option[59]: gpu_tb.v
+ option[60]: ./dispatcher_wrapper/dispatcher_hard_host.v
+ option[61]: ./dispatcher_wrapper/dispatcher_hard.v
+ option[62]: ./dispatcher_wrapper/dispatcher_soft.v
+ option[63]: ./dispatcher_wrapper/dispatcher_wrapper.v
+ option[64]: ../rtl/compute_unit/build/compute_unit.v
+ option[65]: ../rtl/decode/build/decode_core.v
+ option[66]: ../rtl/decode/build/decode_definitions.v
+ option[67]: ../rtl/decode/build/decode.v
+ option[68]: ../rtl/decode/build/flag_generator.v
+ option[69]: ../rtl/decode/build/instr_collate.v
+ option[70]: ../rtl/decode/build/PS_flops_wavepool_decode.v
+ option[71]: ../rtl/decode/build/reg_field_encoder.v
+ option[72]: ../rtl/exec/build/exec.v
+ option[73]: ../rtl/exec/build/rd_port_9_to_1.v
+ option[74]: ../rtl/exec/build/reg_40xX_1r_2w.v
+ option[75]: ../rtl/exec/build/reg_40xX_2r_2w.v
+ option[76]: ../rtl/exec/build/reg_40xX_2r_3w.v
+ option[77]: ../rtl/exec/build/wr_port_40x64b_8_to_1.v
+ option[78]: ../rtl/fetch/build/adder6bit.v
+ option[79]: ../rtl/fetch/build/adder7bit.v
+ option[80]: ../rtl/fetch/build/adder.v
+ option[81]: ../rtl/fetch/build/add_wraparound_after40.v
+ option[82]: ../rtl/fetch/build/decoder.v
+ option[83]: ../rtl/fetch/build/dff_clr.v
+ option[84]: ../rtl/fetch/build/dff_en_fixed_reset_value.v
+ option[85]: ../rtl/fetch/build/fetch_controller.v
+ option[86]: ../rtl/fetch/build/fetch.v
+ option[87]: ../rtl/fetch/build/incr_wraparound_at40.v
+ option[88]: ../rtl/fetch/build/mask_gen.v
+ option[89]: ../rtl/fetch/build/mux4to1_6bit.v
+ option[90]: ../rtl/fetch/build/pc_block.v
+ option[91]: ../rtl/fetch/build/regblock.v
+ option[92]: ../rtl/fetch/build/regfile_clr.v
+ option[93]: ../rtl/fetch/build/round_robin.v
+ option[94]: ../rtl/fetch/build/vacant_mask_gen.v
+ option[95]: ../rtl/fetch/build/wavegrp_info.v
+ option[96]: ../rtl/fetch/build/wfid_generator.v
+ option[97]: ../rtl/instr_buffer/build/instr_buffer.v
+ option[98]: ../rtl/issue/build/alu_issue_logic.v
+ option[99]: ../rtl/issue/build/arbiter.v
+ option[100]: ../rtl/issue/build/barrier_wait.v
+ option[101]: ../rtl/issue/build/branch_wait.v
+ option[102]: ../rtl/issue/build/busy_gpr_table.v
+ option[103]: ../rtl/issue/build/circular_barrel_shift_5b.v
+ option[104]: ../rtl/issue/build/finished_wf.v
+ option[105]: ../rtl/issue/build/functional_unit_reg_bank.v
+ option[106]: ../rtl/issue/build/functional_unit_reg.v
+ option[107]: ../rtl/issue/build/gpr_dependency_table.v
+ option[108]: ../rtl/issue/build/inflight_instr_counter.v
+ option[109]: ../rtl/issue/build/instr_info_table.v
+ option[110]: ../rtl/issue/build/instruction_arbiter.v
+ option[111]: ../rtl/issue/build/issue_flow_control.v
+ option[112]: ../rtl/issue/build/issue.v
+ option[113]: ../rtl/issue/build/mem_wait.v
+ option[114]: ../rtl/issue/build/mux_40xPARAMb_to_1xPARAMb.v
+ option[115]: ../rtl/issue/build/ready_bits_demux.v
+ option[116]: ../rtl/issue/build/scoreboard.v
+ option[117]: ../rtl/issue/build/sgpr_busy_table_decoder.v
+ option[118]: ../rtl/issue/build/sgpr_busy_table_mux.v
+ option[119]: ../rtl/issue/build/sgpr_comparator.v
+ option[120]: ../rtl/issue/build/spr_dependency_table.v
+ option[121]: ../rtl/issue/build/valid_entry.v
+ option[122]: ../rtl/issue/build/vgpr_busy_table_decoder.v
+ option[123]: ../rtl/issue/build/vgpr_busy_table_mux.v
+ option[124]: ../rtl/issue/build/vgpr_comparator.v
+ option[125]: ../rtl/lsu/build/ds_addr_calc.v
+ option[126]: ../rtl/lsu/build/lsu_addr_calculator.v
+ option[127]: ../rtl/lsu/build/lsu_definitions.v
+ option[128]: ../rtl/lsu/build/lsu_opcode_decoder.v
+ option[129]: ../rtl/lsu/build/lsu_op_manager.v
+ option[130]: ../rtl/lsu/build/lsu.v
+ option[131]: ../rtl/lsu/build/mtbuf_addr_calc.v
+ option[132]: ../rtl/memory/build/memory.v
+ option[133]: ../rtl/salu/build/salu_controller.v
+ option[134]: ../rtl/salu/build/salu.v
+ option[135]: ../rtl/salu/build/scalar_alu.v
+ option[136]: ../rtl/sgpr/build/mux_128x32b_to_1x32b.v
+ option[137]: ../rtl/sgpr/build/reg_128x32b_3r_2w.v
+ option[138]: ../rtl/sgpr/build/reg_128x32b_3r_3w.v
+ option[139]: ../rtl/sgpr/build/reg_512x32b_3r_2w.v
+ option[140]: ../rtl/sgpr/build/reg_512x32b_3r_3w.v
+ option[141]: ../rtl/sgpr/build/sgpr_3to1_rd_port_mux.v
+ option[142]: ../rtl/sgpr/build/sgpr_simxlsu_wr_port_mux.v
+ option[143]: ../rtl/sgpr/build/sgpr_simx_rd_port_mux.v
+ option[144]: ../rtl/sgpr/build/sgpr_simx_wr_port_mux.v
+ option[145]: ../rtl/sgpr/build/sgpr.v
+ option[146]: ../rtl/alu/build/alu_controller.v
+ option[147]: ../rtl/alu/build/alu_definitions.v
+ option[148]: ../rtl/alu/build/alu_fsm.v
+ option[149]: ../rtl/alu/build/alu.v
+ option[150]: ../rtl/alu/build/alu_wb_queue.v
+ option[151]: ../rtl/alu/build/dest_shift_reg.v
+ option[152]: ../rtl/alu/build/mux_2_to_1.v
+ option[153]: ../rtl/alu/build/PS_flops_EX_WB_alu.v
+ option[154]: ../rtl/alu/build/PS_flops_issue_alu.v
+ option[155]: ../rtl/alu/build/shift_in.v
+ option[156]: ../rtl/alu/build/shift_out.v
+ option[157]: ../rtl/alu/build/src_mux.v
+ option[158]: ../rtl/alu/build/src_shift_reg.v
+ option[159]: ../rtl/alu/build/valu.v
+ option[160]: ../rtl/simd/build/amultp2_32x32.v
+ option[161]: ../rtl/simd/build/simd_alu.v
+ option[162]: ../rtl/simd/build/simd_instr_decoder.v
+ option[163]: ../rtl/simd/build/simd.v
+ option[164]: ../rtl/simf/build/fpu_addsub.v
+ option[165]: ../rtl/simf/build/fpu_arith.v
+ option[166]: ../rtl/simf/build/fpu_div.v
+ option[167]: ../rtl/simf/build/fpu_intfloat_conv_except.v
+ option[168]: ../rtl/simf/build/fpu_intfloat_conv.v
+ option[169]: ../rtl/simf/build/fpu_mul.v
+ option[170]: ../rtl/simf/build/fpu_post_norm_addsub.v
+ option[171]: ../rtl/simf/build/fpu_post_norm_div.v
+ option[172]: ../rtl/simf/build/fpu_post_norm_intfloat_conv.v
+ option[173]: ../rtl/simf/build/fpu_post_norm_mul.v
+ option[174]: ../rtl/simf/build/fpu_pre_norm_addsub.v
+ option[175]: ../rtl/simf/build/fpu_pre_norm_div.v
+ option[176]: ../rtl/simf/build/fpu_pre_norm_mul.v
+ option[177]: ../rtl/simf/build/simf_alu.v
+ option[178]: ../rtl/simf/build/simf_instr_decoder.v
+ option[179]: ../rtl/simf/build/simf.v
+ option[180]: ../rtl/rfa/build/circular_shift.v
+ option[181]: ../rtl/rfa/build/priority_encoder_16_to_4.v
+ option[182]: ../rtl/rfa/build/rfa.v
+ option[183]: ../rtl/tracemon/build/tracemon.v
+ option[184]: ../rtl/tracemon/build/vgpr_contention_tracker.v
+ option[185]: ../rtl/vgpr/build/mux_256x32b_to_1x32b.v
+ option[186]: ../rtl/vgpr/build/rd_port_mux_8to1.v
+ option[187]: ../rtl/vgpr/build/reg_1024x32b_3r_1w.v
+ option[188]: ../rtl/vgpr/build/reg_1024x32b_3r_2w_banked.v
+ option[189]: ../rtl/vgpr/build/reg_1024x32b_3r_2w.v
+ option[190]: ../rtl/vgpr/build/reg_256x32b_3r_1w.v
+ option[191]: ../rtl/vgpr/build/reg_256x32b_3r_2w.v
+ option[192]: ../rtl/vgpr/build/reg_64page_1024x32b_3r_1w.v
+ option[193]: ../rtl/vgpr/build/reg_64page_1024x32b_3r_2w.v
+ option[194]: ../rtl/vgpr/build/vgpr_2to1_rd_port_mux.v
+ option[195]: ../rtl/vgpr/build/vgpr.v
+ option[196]: ../rtl/vgpr/build/wfid_mux_8to1.v
+ option[197]: ../rtl/vgpr/build/wfid_mux_9to1.v
+ option[198]: ../rtl/vgpr/build/wr_port_mux_8to1.v
+ option[199]: ../rtl/vgpr/build/wr_port_mux_9to1.v
+ option[200]: ../rtl/wavepool/build/adder3bit.v
+ option[201]: ../rtl/wavepool/build/decoder_3_to_8.v
+ option[202]: ../rtl/wavepool/build/mux_40x35b_to_1x35b.v
+ option[203]: ../rtl/wavepool/build/mux_8x64b_to_1x64b.v
+ option[204]: ../rtl/wavepool/build/PS_flops_fetch_wavepool.v
+ option[205]: ../rtl/wavepool/build/queue_controller.v
+ option[206]: ../rtl/wavepool/build/reg_35b.v
+ option[207]: ../rtl/wavepool/build/reg_3b.v
+ option[208]: ../rtl/wavepool/build/reg_40x35b_1r_1w.v
+ option[209]: ../rtl/wavepool/build/reg_8x64b_1r_1w.v
+ option[210]: ../rtl/wavepool/build/scbd_feeder.v
+ option[211]: ../rtl/wavepool/build/wavepool_controller.v
+ option[212]: ../rtl/wavepool/build/wavepool.v
+ option[213]: ../rtl/wavepool/build/wave_queue.v
+ option[214]: ../rtl/wavepool/build/wq_pool.v
+ option[215]: ../rtl/dispatcher/build/allocator.v
+ option[216]: ../rtl/dispatcher/build/cam_allocator.v
+ option[217]: ../rtl/dispatcher/build/cu_handler.v
+ option[218]: ../rtl/dispatcher/build/dis_controller.v
+ option[219]: ../rtl/dispatcher/build/dispatcher.v
+ option[220]: ../rtl/dispatcher/build/gds_resource_table.v
+ option[221]: ../rtl/dispatcher/build/global_resource_table.v
+ option[222]: ../rtl/dispatcher/build/gpu_interface.v
+ option[223]: ../rtl/dispatcher/build/inflight_wg_buffer.v
+ option[224]: ../rtl/dispatcher/build/ram_2_port.v
+ option[225]: ../rtl/dispatcher/build/resource_table.v
+ option[226]: ../rtl/dispatcher/build/resource_update_buffer.v
+ option[227]: ../rtl/dispatcher/build/wg_resource_table.v
+ option[228]: -y
+ option[229]: ../rtl/common/build/
+ option[230]: -load
+ option[231]: /software/Synopsys-2024_x86_64/verdi/W-2024.09/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+ option[232]: timescale=1ns/1ns
+Chronologic Simulation VCS Release W-2024.09_Full64
+Linux 4.18.0-553.46.1.el8_10.x86_64 #1 SMP Sat Mar 15 01:37:33 EDT 2025 x86_64
+CPU cores: 10
+Limit information:
+======================================
+cputime		unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8228 kbytes
+coredumpsize		0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		262144
+memorylocked		64 kbytes
+maxproc		94939
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+UVM_HOME=/software/Synopsys-2024_x86_64/vcs/W-2024.09/etc/uvm-1.2
+LD_LIBRARY_PATH=/software/Synopsys-2024_x86_64/syn/W-2024.09/linux64/tcl/lib:/class/ece411/riscv/lib:/class/ece411/riscv/lib64:::/class/ece411/riscv/lib:/class/ece411/riscv/lib64:
+LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+CBP2016=/class/ece411/cbp2016
+__LMOD_REF_COUNT_PATH=/software/Synopsys-2024_x86_64/verdi/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vcs/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/zoix/W-2024.09/vcs-mx/bin:1;/software/Synopsys-2024_x86_64/dftview/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/fusioncompiler/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/fusioncompiler/W-2024.09/rtl_tcm/bin:1;/software/Synopsys-2024_x86_64/customcompiler/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vcap/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vcps/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/hspice/W-2024.09/hspice/bin:1;/software/Synopsys-2024_x86_64/coretools/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/esp/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/finesim/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/fm/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/hsim/V-2023.12-SP2/hsimplus/bin:1;/software/Synopsys-2024_x86_64/icc/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/icc2/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/icv_workbench/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/icvalidator/W-2024.09-1/bin:1;/software/Synopsys-2024_x86_64/lakertcd/L-2024.09/bin:1;/software/Synopsys-2024_x86_64/lc/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/mw/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/nt/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/pcm_studio/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/prime/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/raphael_fx/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/sentaurus/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/siliconsmart/V-2023.12-SP5-1/bin:1;/software/Synopsys-2024_x86_64/spx/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/spyglass/W-2024.09/SPYGLASS_HOME/bin:1;/software/Synopsys-2024_x86_64/starrc/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/syn/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/txs/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vgen/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vtran/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vui/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/wv/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vc_static/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/3dic/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/ale/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/cck/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/certitude/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/cf/S-2021.09-SP2/GNUPLOT/bin:1;/software/Synopsys-2024_x86_64/cf/S-2021.09-SP2/bin:1;/software/Synopsys-2024_x86_64/cf/W-2024.09/GNUPLOT/bin:1;/software/Synopsys-2024_x86_64/cf/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/cmlp/T-2022.03/bin:1;/software/Synopsys-2024_x86_64/cmlp/T-2022.03/cerberus-nfs/bin:1;/software/Synopsys-2024_x86_64/custominfrastructure/T-2022.06-SP2-2/bin:1;/software/Synopsys-2024_x86_64/custominfrastructure/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/embedit/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/helix/K-2015.09-1/bin:1;/software/Synopsys-2024_x86_64/helix/K-2015.09-1/plat_linux_gcc483_64/bin:1;/software/Synopsys-2024_x86_64/lynxnxt/W-2024.09/automation/bin:1;/software/Synopsys-2024_x86_64/lynxnxt/W-2024.09/fpm_FC_saed32/bin:1;/software/Synopsys-2024_x86_64/mvtools/K-2015.09-SP1/bin:1;/software/Synopsys-2024_x86_64/photonicsolutions/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/photonicsolutions/W-2024.09/optodesigner/bin:1;/software/Synopsys-2024_x86_64/photonicsolutions/W-2024.09/rsoft/bin:1;/software/Synopsys-2024_x86_64/pprtl/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primeclosure/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primeclosure/W-2024.09/dsoai/bin:1;/software/Synopsys-2024_x86_64/primelib/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primesim/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primesim_di/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primesim_dr/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primesim_emir/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primesim_ht/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primesim_ht/W-2024.09/container/bin:1;/software/Synopsys-2024_x86_64/primewave/T-2022.06-SP2-2/bin:1;/software/Synopsys-2024_x86_64/primewave/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/primewavereliability/T-2022.06-SP2-2/bin:1;/software/Synopsys-2024_x86_64/primewavereliability/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/quantumatk/W-2024.09/atkpython/bin:1;/software/Synopsys-2024_x86_64/quantumatk/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/quantumatk/W-2024.09/mpi/bin:1;/software/Synopsys-2024_x86_64/quickcap/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/quickcap/W-2024.09/common/bin:1;/software/Synopsys-2024_x86_64/rh_analysis_fusion/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/rhsc_analysis_fusion/W-2024.09/linux_x86_64_rhel7_ece/bin:1;/software/Synopsys-2024_x86_64/rhsc_electrothermal_analysis_fusion/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/rtla/V-2023.12-SP5/bin:1;/software/Synopsys-2024_x86_64/rtla/V-2023.12-SP5/rtl_tcm/bin:1;/software/Synopsys-2024_x86_64/saber64/V-2024.03-2/32/bin:1;/software/Synopsys-2024_x86_64/saber64/V-2024.03-2/64/bin:1;/software/Synopsys-2024_x86_64/siwb_workbench/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/slitho/V-2024.09/bin:1;/software/Synopsys-2024_x86_64/smetro/V-2024.09/bin:1;/software/Synopsys-2024_x86_64/snps_container/2.0/bin:1;/software/Synopsys-2024_x86_64/spxviewer/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/tcm/V-2023.12-SP5-1/bin:1;/software/Synopsys-2024_x86_64/testmax/V-2023.12-SP2/bin:1;/software/Synopsys-2024_x86_64/testmax/V-2023.12-SP2/embedit/bin:1;/software/Synopsys-2024_x86_64/testmax/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/testmax/W-2024.09/embedit/bin:1;/software/Synopsys-2024_x86_64/tweaker/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/certitude/bin:1;/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/genfv/bin:1;/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/hector/bin:1;/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/json-diff/bin:1;/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/verdi/bin:1;/software/Synopsys-2024_x86_64/vc_functional_safety_manager/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/vc_ml_platform/2019.06/mlplatform/bin:1;/software/Synopsys-2024_x86_64/vc_replay/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/verdi/V-2023.12/bin:1;/software/Synopsys-2024_x86_64/verdi/V-2023.12/gperf-1.5/bin:1;/software/Synopsys-2024_x86_64/verdi/W-2024.09/gperf-1.5/bin:1;/software/Synopsys-2024_x86_64/verdi_supp/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/xa/W-2024.09/ML_sim_predict/bin:1;/software/Synopsys-2024_x86_64/xa/W-2024.09/ava/bin:1;/software/Synopsys-2024_x86_64/xa/W-2024.09/bin:1;/software/Synopsys-2024_x86_64/zoix/W-2024.09/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/software/ews/bin:3;/usr/lib/fastx/3/apps:1;/class/ece411/riscv/bin:3;/class/ece411/verilator/bin:3;/class/ece411/cacti:3;:1
+LMODARCH=x86_64
+_ModuleTable002_=bW9kdWxlZmlsZXMiLCAiL3Vzci9zaGFyZS9Nb2R1bGVzL21vZHVsZWZpbGVzIgosICIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwgIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIKLCAiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsICIvZXRjL21vZHVsZWZpbGVzL2VudiIKLCAiL2V0Yy9tb2R1bGVmaWxlcy9jbGFzcyIsICIvZXRjL21vZHVsZWZpbGVzL2V3c19zb2Z0d2FyZSIsCn0sCnN5c3RlbUJhc2VNUEFUSCA9ICIvdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvTW9kdWxlcy9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4Oi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZTovdXNyL3NoYXJlL2xt
+XDG_MENU_PREFIX=gnome-
+__LMOD_STACK_acroread_path=L3Vzci9iaW4vYWNyb3JlYWQ=
+LANG=en_US.UTF-8
+HISTCONTROL=ignoredups
+DISPLAY=fastx3-27.ews.illinois.edu:113
+HOSTNAME=fastx3-27.ews.illinois.edu
+__LMOD_STACK_SYNOPSYS_LC_ROOT=L3NvZnR3YXJlL1N5bm9wc3lzLTIwMjRfeDg2XzY0L2xjL1ctMjAyNC4wOQ==
+OLDPWD=/home/yashg6/miaow/src/verilog/tb
+ORIGINAL_XDG_CURRENT_DESKTOP=GNOME
+GNOME_SHELL_SESSION_MODE=classic
+__LMOD_STACK_VCS_HOME=L3NvZnR3YXJlL1N5bm9wc3lzLTIwMjRfeDg2XzY0L3Zjcy9XLTIwMjQuMDk=
+COLORTERM=truecolor
+FPATH=/usr/share/lmod/lmod/init/ksh_funcs
+LAMMPS_POTENTIALS=/usr/share/lammps/potentials
+OPENRAM=/class/ece411/OpenRAM
+__LMOD_REF_COUNT_LM_LICENSE_FILE=27005@synopsys.webstore.illinois.edu:1
+CHROME_DESKTOP=code.desktop
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/software/Synopsys-2024_x86_64/syn/W-2024.09/linux64/tcl/lib:1;/class/ece411/riscv/lib:3;/class/ece411/riscv/lib64:3;:3
+NO_AT_BRIDGE=1
+GIO_LAUNCHED_DESKTOP_FILE_PID=646435
+SSH_AUTH_SOCK=/tmp/FastX-60e0a95a9d5d487d8b04aeb90d34fa41/agent.643987
+apath=/usr/bin/acroread
+CNI_ROOT=/software/Synopsys-2024_x86_64/customcompiler/W-2024.09/linux64/PyCellStudio
+which_declare=declare -f
+XDG_SESSION_ID=13
+USER=yashg6
+FREEPDK45=/class/ece411/freepdk-45nm
+SYNOPSYS_LC_ROOT=/software/Synopsys-2024_x86_64/lc/W-2024.09
+SELINUX_ROLE_REQUESTED=
+__LMOD_REF_COUNT_MODULEPATH=/usr/share/modulefiles:1;/usr/share/Modules/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/etc/modulefiles/env:1;/etc/modulefiles/class:1;/etc/modulefiles/ews_software:1
+PWD=/home/yashg6/miaow/src/verilog/tb/results/benchmark_out/BinarySearch
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HOME=/home/yashg6
+SOFTPATH=/software
+VSCODE_GIT_ASKPASS_NODE=/usr/share/code/code
+TERM_PROGRAM=vscode
+SSH_CLIENT=127.0.0.1 54450 3322
+TERM_PROGRAM_VERSION=1.98.2
+MSI2LMP_LIBRARY=/usr/share/lammps/frc_files
+LMOD_VERSION=8.7.55
+SELINUX_LEVEL_REQUESTED=
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+XDG_DATA_DIRS=/home/yashg6/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+FASTX_SESSION_DIR=/home/yashg6/.fastx_server/fastx3-27.ews.illinois.edu/sessions/FX3-60e0a95a9d5d487d8b04aeb90d34fa41
+FASTX_SESSION_ID=60e0a95a9d5d487d8b04aeb90d34fa41
+DISTARCH=Linux-x86_64
+GJS_DEBUG_OUTPUT=stderr
+LMOD_sys=Linux
+_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0ge30sCm1UID0gewpbIlN5bm9wc3lzX3g4Ni02NCJdID0gewpmbiA9ICIvZXRjL21vZHVsZWZpbGVzL2V3c19zb2Z0d2FyZS9TeW5vcHN5c194ODYtNjQvMjAyNC5sdWEiLApmdWxsTmFtZSA9ICJTeW5vcHN5c194ODYtNjQvMjAyNCIsCmxvYWRPcmRlciA9IDEsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAiU3lub3BzeXNfeDg2LTY0LzIwMjQiLAp3ViA9ICIwMDAwMDIwMjQuKnpmaW5hbCIsCn0sCn0sCm1wYXRoQSA9IHsKIi91c3Ivc2hhcmUv
+LOADEDMODULES=Synopsys_x86-64/2024
+__LMOD_REF_COUNT_CNI_ROOT=/software/Synopsys-2024_x86_64/customcompiler/W-2024.09/linux64/PyCellStudio:1
+_ModuleTable003_=b2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlOi9ldGMvbW9kdWxlZmlsZXMvZW52Oi9ldGMvbW9kdWxlZmlsZXMvY2xhc3M6L2V0Yy9tb2R1bGVmaWxlcy9ld3Nfc29mdHdhcmUiLAp9Cg==
+LMOD_ROOT=/usr/share/lmod
+MAIL=/var/spool/mail/yashg6
+VSCODE_GIT_ASKPASS_MAIN=/usr/share/code/resources/app/extensions/git/dist/askpass-main.js
+LMOD_arch=x86_64
+SHELL=/bin/bash
+TERM=xterm-256color
+QT_IM_MODULE=ibus
+XMODIFIERS=@im=ibus
+_ModuleTable_Sz_=3
+LM_LICENSE_FILE=27005@synopsys.webstore.illinois.edu
+XDG_CURRENT_DESKTOP=GNOME
+SELINUX_USE_CURRENT_RANGE=
+GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/code.desktop
+VERDI_HOME=/software/Synopsys-2024_x86_64/verdi/W-2024.09
+SHLVL=5
+VSCODE_GIT_IPC_HANDLE=/run/user/1180051/vscode-git-cc9f977ee2.sock
+MANPATH=/usr/share/lmod/lmod/share/man:
+__LMOD_STACK_VERDI_HOME=L3NvZnR3YXJlL1N5bm9wc3lzLTIwMjRfeDg2XzY0L3ZlcmRpL1ctMjAyNC4wOQ==
+DW=/software/Synopsys-2024_x86_64/icc/W-2024.09/dw
+MODULEPATH=/usr/share/modulefiles:/usr/share/Modules/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/etc/modulefiles/env:/etc/modulefiles/class:/etc/modulefiles/ews_software
+GDK_BACKEND=x11
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LOGNAME=yashg6
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-JHRDNIDQUL,guid=0bf559508cc8e2ab9e5a496967e8c6af
+GIT_ASKPASS=/usr/share/code/resources/app/extensions/git/dist/askpass.sh
+XDG_RUNTIME_DIR=/run/user/1180051
+XAUTHORITY=/home/yashg6/.fastx_server/fastx3-27.ews.illinois.edu/sessions/FX3-60e0a95a9d5d487d8b04aeb90d34fa41/authority
+MODULEPATH_ROOT=/usr/share/modulefiles
+PATH=/software/Synopsys-2024_x86_64/verdi/W-2024.09/bin:/software/Synopsys-2024_x86_64/vcs/W-2024.09/bin:/software/Synopsys-2024_x86_64/zoix/W-2024.09/vcs-mx/bin:/software/Synopsys-2024_x86_64/dftview/W-2024.09/bin:/software/Synopsys-2024_x86_64/fusioncompiler/W-2024.09/bin:/software/Synopsys-2024_x86_64/fusioncompiler/W-2024.09/rtl_tcm/bin:/software/Synopsys-2024_x86_64/customcompiler/W-2024.09/bin:/software/Synopsys-2024_x86_64/vcap/W-2024.09/bin:/software/Synopsys-2024_x86_64/vcps/W-2024.09/bin:/software/Synopsys-2024_x86_64/hspice/W-2024.09/hspice/bin:/software/Synopsys-2024_x86_64/coretools/W-2024.09/bin:/software/Synopsys-2024_x86_64/esp/W-2024.09/bin:/software/Synopsys-2024_x86_64/finesim/W-2024.09/bin:/software/Synopsys-2024_x86_64/fm/W-2024.09/bin:/software/Synopsys-2024_x86_64/hsim/V-2023.12-SP2/hsimplus/bin:/software/Synopsys-2024_x86_64/icc/W-2024.09/bin:/software/Synopsys-2024_x86_64/icc2/W-2024.09/bin:/software/Synopsys-2024_x86_64/icv_workbench/W-2024.09/bin:/software/Synopsys-2024_x86_64/icvalidator/W-2024.09-1/bin:/software/Synopsys-2024_x86_64/lakertcd/L-2024.09/bin:/software/Synopsys-2024_x86_64/lc/W-2024.09/bin:/software/Synopsys-2024_x86_64/mw/W-2024.09/bin:/software/Synopsys-2024_x86_64/nt/W-2024.09/bin:/software/Synopsys-2024_x86_64/pcm_studio/W-2024.09/bin:/software/Synopsys-2024_x86_64/prime/W-2024.09/bin:/software/Synopsys-2024_x86_64/raphael_fx/W-2024.09/bin:/software/Synopsys-2024_x86_64/sentaurus/W-2024.09/bin:/software/Synopsys-2024_x86_64/siliconsmart/V-2023.12-SP5-1/bin:/software/Synopsys-2024_x86_64/spx/W-2024.09/bin:/software/Synopsys-2024_x86_64/spyglass/W-2024.09/SPYGLASS_HOME/bin:/software/Synopsys-2024_x86_64/starrc/W-2024.09/bin:/software/Synopsys-2024_x86_64/syn/W-2024.09/bin:/software/Synopsys-2024_x86_64/txs/W-2024.09/bin:/software/Synopsys-2024_x86_64/vgen/W-2024.09/bin:/software/Synopsys-2024_x86_64/vtran/W-2024.09/bin:/software/Synopsys-2024_x86_64/vui/W-2024.09/bin:/software/Synopsys-2024_x86_64/wv/W-2024.09/bin:/software/Synopsys-2024_x86_64/vc_static/W-2024.09/bin:/software/Synopsys-2024_x86_64/3dic/W-2024.09/bin:/software/Synopsys-2024_x86_64/ale/W-2024.09/bin:/software/Synopsys-2024_x86_64/cck/W-2024.09/bin:/software/Synopsys-2024_x86_64/certitude/W-2024.09/bin:/software/Synopsys-2024_x86_64/cf/S-2021.09-SP2/GNUPLOT/bin:/software/Synopsys-2024_x86_64/cf/S-2021.09-SP2/bin:/software/Synopsys-2024_x86_64/cf/W-2024.09/GNUPLOT/bin:/software/Synopsys-2024_x86_64/cf/W-2024.09/bin:/software/Synopsys-2024_x86_64/cmlp/T-2022.03/bin:/software/Synopsys-2024_x86_64/cmlp/T-2022.03/cerberus-nfs/bin:/software/Synopsys-2024_x86_64/custominfrastructure/T-2022.06-SP2-2/bin:/software/Synopsys-2024_x86_64/custominfrastructure/W-2024.09/bin:/software/Synopsys-2024_x86_64/embedit/W-2024.09/bin:/software/Synopsys-2024_x86_64/helix/K-2015.09-1/bin:/software/Synopsys-2024_x86_64/helix/K-2015.09-1/plat_linux_gcc483_64/bin:/software/Synopsys-2024_x86_64/lynxnxt/W-2024.09/automation/bin:/software/Synopsys-2024_x86_64/lynxnxt/W-2024.09/fpm_FC_saed32/bin:/software/Synopsys-2024_x86_64/mvtools/K-2015.09-SP1/bin:/software/Synopsys-2024_x86_64/photonicsolutions/W-2024.09/bin:/software/Synopsys-2024_x86_64/photonicsolutions/W-2024.09/optodesigner/bin:/software/Synopsys-2024_x86_64/photonicsolutions/W-2024.09/rsoft/bin:/software/Synopsys-2024_x86_64/pprtl/W-2024.09/bin:/software/Synopsys-2024_x86_64/primeclosure/W-2024.09/bin:/software/Synopsys-2024_x86_64/primeclosure/W-2024.09/dsoai/bin:/software/Synopsys-2024_x86_64/primelib/W-2024.09/bin:/software/Synopsys-2024_x86_64/primesim/W-2024.09/bin:/software/Synopsys-2024_x86_64/primesim_di/W-2024.09/bin:/software/Synopsys-2024_x86_64/primesim_dr/W-2024.09/bin:/software/Synopsys-2024_x86_64/primesim_emir/W-2024.09/bin:/software/Synopsys-2024_x86_64/primesim_ht/W-2024.09/bin:/software/Synopsys-2024_x86_64/primesim_ht/W-2024.09/container/bin:/software/Synopsys-2024_x86_64/primewave/T-2022.06-SP2-2/bin:/software/Synopsys-2024_x86_64/primewave/W-2024.09/bin:/software/Synopsys-2024_x86_64/primewavereliability/T-2022.06-SP2-2/bin:/software/Synopsys-2024_x86_64/primewavereliability/W-2024.09/bin:/software/Synopsys-2024_x86_64/quantumatk/W-2024.09/atkpython/bin:/software/Synopsys-2024_x86_64/quantumatk/W-2024.09/bin:/software/Synopsys-2024_x86_64/quantumatk/W-2024.09/mpi/bin:/software/Synopsys-2024_x86_64/quickcap/W-2024.09/bin:/software/Synopsys-2024_x86_64/quickcap/W-2024.09/common/bin:/software/Synopsys-2024_x86_64/rh_analysis_fusion/W-2024.09/bin:/software/Synopsys-2024_x86_64/rhsc_analysis_fusion/W-2024.09/linux_x86_64_rhel7_ece/bin:/software/Synopsys-2024_x86_64/rhsc_electrothermal_analysis_fusion/W-2024.09/bin:/software/Synopsys-2024_x86_64/rtla/V-2023.12-SP5/bin:/software/Synopsys-2024_x86_64/rtla/V-2023.12-SP5/rtl_tcm/bin:/software/Synopsys-2024_x86_64/saber64/V-2024.03-2/32/bin:/software/Synopsys-2024_x86_64/saber64/V-2024.03-2/64/bin:/software/Synopsys-2024_x86_64/siwb_workbench/W-2024.09/bin:/software/Synopsys-2024_x86_64/slitho/V-2024.09/bin:/software/Synopsys-2024_x86_64/smetro/V-2024.09/bin:/software/Synopsys-2024_x86_64/snps_container/2.0/bin:/software/Synopsys-2024_x86_64/spxviewer/W-2024.09/bin:/software/Synopsys-2024_x86_64/tcm/V-2023.12-SP5-1/bin:/software/Synopsys-2024_x86_64/testmax/V-2023.12-SP2/bin:/software/Synopsys-2024_x86_64/testmax/V-2023.12-SP2/embedit/bin:/software/Synopsys-2024_x86_64/testmax/W-2024.09/bin:/software/Synopsys-2024_x86_64/testmax/W-2024.09/embedit/bin:/software/Synopsys-2024_x86_64/tweaker/W-2024.09/bin:/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/bin:/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/certitude/bin:/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/genfv/bin:/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/hector/bin:/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/json-diff/bin:/software/Synopsys-2024_x86_64/vc_formal/W-2024.09/verdi/bin:/software/Synopsys-2024_x86_64/vc_functional_safety_manager/W-2024.09/bin:/software/Synopsys-2024_x86_64/vc_ml_platform/2019.06/mlplatform/bin:/software/Synopsys-2024_x86_64/vc_replay/W-2024.09/bin:/software/Synopsys-2024_x86_64/verdi/V-2023.12/bin:/software/Synopsys-2024_x86_64/verdi/V-2023.12/gperf-1.5/bin:/software/Synopsys-2024_x86_64/verdi/W-2024.09/gperf-1.5/bin:/software/Synopsys-2024_x86_64/verdi_supp/W-2024.09/bin:/software/Synopsys-2024_x86_64/xa/W-2024.09/ML_sim_predict/bin:/software/Synopsys-2024_x86_64/xa/W-2024.09/ava/bin:/software/Synopsys-2024_x86_64/xa/W-2024.09/bin:/software/Synopsys-2024_x86_64/zoix/W-2024.09/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/software/ews/bin:/usr/lib/fastx/3/apps:/class/ece411/riscv/bin:/class/ece411/verilator/bin:/class/ece411/cacti:/class/ece411/riscv/bin:/class/ece411/verilator/bin:/class/ece411/cacti:
+_LMFILES_=/etc/modulefiles/ews_software/Synopsys_x86-64/2024.lua
+VCS_HOME=/software/Synopsys-2024_x86_64/vcs/W-2024.09
+ECE411_GUI_TIMEOUT=1h
+MODULESHOME=/usr/share/lmod/lmod
+__LMOD_STACK_apath=L3Vzci9iaW4vYWNyb3JlYWQ=
+LMOD_SETTARG_FULL_SUPPORT=no
+HISTSIZE=1000
+LMOD_PKG=/usr/share/lmod/lmod
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/644129,unix/unix:/tmp/.ICE-unix/644129
+acroread_path=/usr/bin/acroread
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+_=../simv
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_STACK_EXEC=true
+VCS_EXEC_DONE=1
+LC_ALL=C
+DVE=/software/Synopsys-2024_x86_64/vcs/W-2024.09/gui/dve
+SPECMAN_OUTPUT_TO_TTY=1
+FLEXLM_BORROWFILE=/home/yashg6/.fastx3-27.ews.illinois.edu-borrow.txt
+Runtime command line arguments:
+argv[0]=../simv
+argv[1]=+dump_waveforms=1
+argv[2]=+KILLTIME=100000000000
+458 profile - 100
+          CPU/Mem usage: 1.910 sys,  7.850 user,  4495.47M mem
+459 Elapsed time:    0:00:11    Sat Mar 29 23:40:43 2025
+460 User CPU time used: 7 seconds
+461 System CPU time used: 1 seconds
+462 pliAppInit
+463 FSDB_GATE is set.
+464 FSDB_RTL is set.
+465 FSDB_DYNAMIC_ALIAS is enabled.
+466 libnuma.so open fail. libnuma.so: cannot open shared object file: No such file or directory
+467 FSDB NUMA optimize not available.
+468 FSDB_PACKED_MODE is enabled.
+469 FSDB_GATE_PACKED is enabled.
+470 [SC]Init: MemoryConsumed=0.00MB ElapsedTime=0hour 0min. 0sec.
+471 FSDB_REDUCE_VC_MEM is enabled.
+472 FSDB_ALIAS_ARRAY_ELEM is set to 4294967295.
+473 Enable Parallel Dumping.
+474 pliAppMiscSet: New Sim Round
+475 pliEntryInit
+476 LIBSSCORE=found /software/Synopsys-2024_x86_64/verdi/W-2024.09/share/PLI/lib/LINUXAMD64/libsscore_vcs202409.so through $NOVAS_HOME setting.
+477 FSDB Dumper for VCS, Release Verdi_W-2024.09, Linux x86_64/64bit, 08/17/2024
+478 (C) 1996 - 2024 by Synopsys, Inc.
+479 sps_call_fsdbDumpfile_main at 0 : gpu_tb.v(390)
+480 argv[0]: (wave.fsdb)
+481 *Verdi* : Create FSDB file 'wave.fsdb'
+482 [spi_vcs_vd_ppi_create_root]: no upf option
+483 DUMPER_MEMORY_REDUCTION is enabled.
+484 compile option from '/home/yashg6/miaow/src/verilog/tb/simv.daidir/vcs_rebuild'.
+485   "vcs '-full64' '+libext+.v' '-debug_all' '+v2k' '-sverilog' '-l' 'compile.log' '-debug_acc+all' '-licqueue' '-lca' '-sverilog' '-assert' 'svaext' '-kdb' '-timescale=1ns/1ns' '+lint=all' '../rtl/common/global_definitions.v' '../rtl/common/issue_definitions.v' '../rtl/alu/alu_definitions.v' '../rtl/lsu/lsu_definitions.v' '../rtl/decode/decode_definitions.v' 'gpu_tb.v' 'wave.c' './dispatcher_wrapper/dispatcher_hard_host.v' './dispatcher_wrapper/dispatcher_hard.v' './dispatcher_wrapper/dispatcher_soft.v' './dispatcher_wrapper/dispatcher_wrapper.v' '../rtl/compute_unit/build/compute_unit.v' '../rtl/decode/build/decode_core.v' '../rtl/decode/build/decode_definitions.v' '../rtl/decode/build/decode.v' '../rtl/decode/build/flag_generator.v' '../rtl/decode/build/instr_collate.v' '../rtl/decode/build/PS_flops_wavepool_decode.v' '../rtl/decode/build/reg_field_encoder.v' '../rtl/exec/build/exec.v' '../rtl/exec/build/rd_port_9_to_1.v' '../rtl/exec/build/reg_40xX_1r_2w.v' '../rtl/exec/build/reg_40xX_2r_2w.v' '../rtl/exec/build/reg_40xX_2r_3w.v' '../rtl/exec/build/wr_port_40x64b_8_to_1.v' '../rtl/fetch/build/adder6bit.v' '../rtl/fetch/build/adder7bit.v' '../rtl/fetch/build/adder.v' '../rtl/fetch/build/add_wraparound_after40.v' '../rtl/fetch/build/decoder.v' '../rtl/fetch/build/dff_clr.v' '../rtl/fetch/build/dff_en_fixed_reset_value.v' '../rtl/fetch/build/fetch_controller.v' '../rtl/fetch/build/fetch.v' '../rtl/fetch/build/incr_wraparound_at40.v' '../rtl/fetch/build/mask_gen.v' '../rtl/fetch/build/mux4to1_6bit.v' '../rtl/fetch/build/pc_block.v' '../rtl/fetch/build/regblock.v' '../rtl/fetch/build/regfile_clr.v' '../rtl/fetch/build/round_robin.v' '../rtl/fetch/build/vacant_mask_gen.v' '../rtl/fetch/build/wavegrp_info.v' '../rtl/fetch/build/wfid_generator.v' '../rtl/instr_buffer/build/instr_buffer.v' '../rtl/issue/build/alu_issue_logic.v' '../rtl/issue/build/arbiter.v' '../rtl/issue/build/barrier_wait.v' '../rtl/issue/build/branch_wait.v' '../rtl/issue/build/busy_gpr_table.v' '../rtl/issue/build/circular_barrel_shift_5b.v' '../rtl/issue/build/finished_wf.v' '../rtl/issue/build/functional_unit_reg_bank.v' '../rtl/issue/build/functional_unit_reg.v' '../rtl/issue/build/gpr_dependency_table.v' '../rtl/issue/build/inflight_instr_counter.v' '../rtl/issue/build/instr_info_table.v' '../rtl/issue/build/instruction_arbiter.v' '../rtl/issue/build/issue_flow_control.v' '../rtl/issue/build/issue.v' '../rtl/issue/build/mem_wait.v' '../rtl/issue/build/mux_40xPARAMb_to_1xPARAMb.v' '../rtl/issue/build/ready_bits_demux.v' '../rtl/issue/build/scoreboard.v' '../rtl/issue/build/sgpr_busy_table_decoder.v' '../rtl/issue/build/sgpr_busy_table_mux.v' '../rtl/issue/build/sgpr_comparator.v' '../rtl/issue/build/spr_dependency_table.v' '../rtl/issue/build/valid_entry.v' '../rtl/issue/build/vgpr_busy_table_decoder.v' '../rtl/issue/build/vgpr_busy_table_mux.v' '../rtl/issue/build/vgpr_comparator.v' '../rtl/lsu/build/ds_addr_calc.v' '../rtl/lsu/build/lsu_addr_calculator.v' '../rtl/lsu/build/lsu_definitions.v' '../rtl/lsu/build/lsu_opcode_decoder.v' '../rtl/lsu/build/lsu_op_manager.v' '../rtl/lsu/build/lsu.v' '../rtl/lsu/build/mtbuf_addr_calc.v' '../rtl/memory/build/memory.v' '../rtl/memory/cachesim.c' '../rtl/salu/build/salu_controller.v' '../rtl/salu/build/salu.v' '../rtl/salu/build/scalar_alu.v' '../rtl/sgpr/build/mux_128x32b_to_1x32b.v' '../rtl/sgpr/build/reg_128x32b_3r_2w.v' '../rtl/sgpr/build/reg_128x32b_3r_3w.v' '../rtl/sgpr/build/reg_512x32b_3r_2w.v' '../rtl/sgpr/build/reg_512x32b_3r_3w.v' '../rtl/sgpr/build/sgpr_3to1_rd_port_mux.v' '../rtl/sgpr/build/sgpr_simxlsu_wr_port_mux.v' '../rtl/sgpr/build/sgpr_simx_rd_port_mux.v' '../rtl/sgpr/build/sgpr_simx_wr_port_mux.v' '../rtl/sgpr/build/sgpr.v' '../rtl/alu/build/alu_controller.v' '../rtl/alu/build/alu_definitions.v' '../rtl/alu/build/alu_fsm.v' '../rtl/alu/build/alu.v' '../rtl/alu/build/alu_wb_queue.v' '../rtl/alu/build/dest_shift_reg.v' '../rtl/alu/build/mux_2_to_1.v' '../rtl/alu/build/PS_flops_EX_WB_alu.v' '../rtl/alu/build/PS_flops_issue_alu.v' '../rtl/alu/build/shift_in.v' '../rtl/alu/build/shift_out.v' '../rtl/alu/build/src_mux.v' '../rtl/alu/build/src_shift_reg.v' '../rtl/alu/build/valu.v' '../rtl/simd/build/amultp2_32x32.v' '../rtl/simd/build/simd_alu.v' '../rtl/simd/build/simd_instr_decoder.v' '../rtl/simd/build/simd.v' '../rtl/simf/build/fpu_addsub.v' '../rtl/simf/build/fpu_arith.v' '../rtl/simf/build/fpu_div.v' '../rtl/simf/build/fpu_intfloat_conv_except.v' '../rtl/simf/build/fpu_intfloat_conv.v' '../rtl/simf/build/fpu_mul.v' '../rtl/simf/build/fpu_post_norm_addsub.v' '../rtl/simf/build/fpu_post_norm_div.v' '../rtl/simf/build/fpu_post_norm_intfloat_conv.v' '../rtl/simf/build/fpu_post_norm_mul.v' '../rtl/simf/build/fpu_pre_norm_addsub.v' '../rtl/simf/build/fpu_pre_norm_div.v' '../rtl/simf/build/fpu_pre_norm_mul.v' '../rtl/simf/build/simf_alu.v' '../rtl/simf/build/simf_instr_decoder.v' '../rtl/simf/build/simf.v' '../rtl/rfa/build/circular_shift.v' '../rtl/rfa/build/priority_encoder_16_to_4.v' '../rtl/rfa/build/rfa.v' '../rtl/tracemon/build/tracemon.v' '../rtl/tracemon/build/vgpr_contention_tracker.v' '../rtl/tracemon/tracemon.c' '../rtl/vgpr/build/mux_256x32b_to_1x32b.v' '../rtl/vgpr/build/rd_port_mux_8to1.v' '../rtl/vgpr/build/reg_1024x32b_3r_1w.v' '../rtl/vgpr/build/reg_1024x32b_3r_2w_banked.v' '../rtl/vgpr/build/reg_1024x32b_3r_2w.v' '../rtl/vgpr/build/reg_256x32b_3r_1w.v' '../rtl/vgpr/build/reg_256x32b_3r_2w.v' '../rtl/vgpr/build/reg_64page_1024x32b_3r_1w.v' '../rtl/vgpr/build/reg_64page_1024x32b_3r_2w.v' '../rtl/vgpr/build/vgpr_2to1_rd_port_mux.v' '../rtl/vgpr/build/vgpr.v' '../rtl/vgpr/build/wfid_mux_8to1.v' '../rtl/vgpr/build/wfid_mux_9to1.v' '../rtl/vgpr/build/wr_port_mux_8to1.v' '../rtl/vgpr/build/wr_port_mux_9to1.v' '../rtl/wavepool/build/adder3bit.v' '../rtl/wavepool/build/decoder_3_to_8.v' '../rtl/wavepool/build/mux_40x35b_to_1x35b.v' '../rtl/wavepool/build/mux_8x64b_to_1x64b.v' '../rtl/wavepool/build/PS_flops_fetch_wavepool.v' '../rtl/wavepool/build/queue_controller.v' '../rtl/wavepool/build/reg_35b.v' '../rtl/wavepool/build/reg_3b.v' '../rtl/wavepool/build/reg_40x35b_1r_1w.v' '../rtl/wavepool/build/reg_8x64b_1r_1w.v' '../rtl/wavepool/build/scbd_feeder.v' '../rtl/wavepool/build/wavepool_controller.v' '../rtl/wavepool/build/wavepool.v' '../rtl/wavepool/build/wave_queue.v' '../rtl/wavepool/build/wq_pool.v' '../rtl/dispatcher/build/allocator.v' '../rtl/dispatcher/build/cam_allocator.v' '../rtl/dispatcher/build/cu_handler.v' '../rtl/dispatcher/build/dis_controller.v' '../rtl/dispatcher/build/dispatcher.v' '../rtl/dispatcher/build/gds_resource_table.v' '../rtl/dispatcher/build/global_resource_table.v' '../rtl/dispatcher/build/gpu_interface.v' '../rtl/dispatcher/build/inflight_wg_buffer.v' '../rtl/dispatcher/build/ram_2_port.v' '../rtl/dispatcher/build/resource_table.v' '../rtl/dispatcher/build/resource_update_buffer.v' '../rtl/dispatcher/build/wg_resource_table.v' '-y' '../rtl/common/build/' 2>&1"
+486 DVDI_is_vir_unload_enabled is enable
+487 FSDB_VCS_ENABLE_NATIVE_VC is enable
+488 FSDB_VCS_ENABLE_MEMORY_NATIVE_VC is enabled
+489 sps_call_fsdbDumpvars_vd_main at 0 : gpu_tb.v(391)
+490 argv[0]: (+all)
+491 *Verdi* : Begin traversing the scopes, layer (0).
+492 *Verdi* : Enable +all dumping.
+493 *Verdi* : End of traversing.
+494 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 5.220 sys,  270.020 user,  8198.69M mem
+                   incr: 3.280 sys,  262.150 user,  3613.19M mem
+                   accu: 3.280 sys,  262.150 user,  3613.19M mem
+              accu incr: 3.280 sys,  262.150 user,  3613.19M mem
+
+          Count usage: 45514924 var,  27268128 idcode,  4562228 callback
+                 incr: 45514924 var,  27268128 idcode,  4562228 callback
+                 accu: 45514924 var,  27268128 idcode,  4562228 callback
+            accu incr: 45514924 var,  27268128 idcode,  4562228 callback
+495 Idcode  0 - bc1:0  mda:159317
+496 Elapsed time:    0:05:10    Sat Mar 29 23:45:42 2025
+497 User CPU time used: 270 seconds
+498 System CPU time used: 5 seconds
+499 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 5.220 sys,  270.020 user,  8198.69M mem
+                   incr: 0.000 sys,  0.000 user,  0.00M mem
+                   accu: 3.280 sys,  262.150 user,  3613.19M mem
+              accu incr: 0.000 sys,  0.000 user,  0.00M mem
+
+          Count usage: 45514924 var,  27268128 idcode,  4562228 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 45514924 var,  27268128 idcode,  4562228 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+500 Idcode  0 - bc1:0  mda:159317
+501 Elapsed time:    0:05:10    Sat Mar 29 23:45:42 2025
+502 User CPU time used: 270 seconds
+503 System CPU time used: 5 seconds
+504 sps_call_fsdbDumpvars_vd_main at 0 : gpu_tb.v(392)
+505 argv[0]: (0)
+506 *Verdi* : Begin traversing the scopes, layer (0).
+507 *Verdi* : End of traversing.
+508 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 5.490 sys,  434.180 user,  8198.69M mem
+                   incr: 0.270 sys,  164.160 user,  0.00M mem
+                   accu: 0.270 sys,  164.160 user,  0.00M mem
+              accu incr: 0.270 sys,  164.160 user,  0.00M mem
+
+          Count usage: 90871076 var,  27268128 idcode,  4562228 callback
+                 incr: 45356152 var,  0 idcode,  0 callback
+                 accu: 45356152 var,  0 idcode,  0 callback
+            accu incr: 45356152 var,  0 idcode,  0 callback
+509 Idcode  0 - bc1:0  mda:159317
+510 Elapsed time:    0:07:56    Sat Mar 29 23:48:28 2025
+511 User CPU time used: 434 seconds
+512 System CPU time used: 5 seconds
+513 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 5.490 sys,  434.180 user,  8198.69M mem
+                   incr: 0.000 sys,  0.000 user,  0.00M mem
+                   accu: 0.270 sys,  164.160 user,  0.00M mem
+              accu incr: 0.000 sys,  0.000 user,  0.00M mem
+
+          Count usage: 90871076 var,  27268128 idcode,  4562228 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 45356152 var,  0 idcode,  0 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+514 Idcode  0 - bc1:0  mda:159317
+515 Elapsed time:    0:07:56    Sat Mar 29 23:48:28 2025
+516 User CPU time used: 434 seconds
+517 System CPU time used: 5 seconds
+518 *Verdi* FSDB: For performance reasons, the Memory Size Limit has been increased to 512M.
+519 Elapsed time:    0:34:56    Sun Mar 30 00:15:28 2025
+520 User CPU time used: 1811 seconds
+521 System CPU time used: 7 seconds
+522 Sim process exit
+523 Memory usage: 8652.022 M
+524 Maximum resident set size: 7874 MB
+525 Hard page faults: 1265
+526 Soft page faults: 1858833
+527 Elapsed time:    0:34:56    Sun Mar 30 00:15:28 2025
+528 User CPU time used: 1811 seconds
+529 System CPU time used: 7 seconds
+530 Begin FSDB profile info:
+531 FSDB Writer : bc1(47100051) bcn(116300800) mtf/stf(0/1)
+FSDB Writer elapsed time : flush(12.583394) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+532 End FSDB profile info
+533 FSDB closed. Name: wave.fsdb Size: 232859585
+534 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
+535                      - BlockUsed:1558 Acquire:0 BufferUsed:3263871287
+536                      - Flush:4 Expand:0 ProducerWait:0 ConsumerWait:1548
+537                      - MainProducerTime:1804.424643539 TotalConsumerTime:20.963118320
+538                      - ElapsedTime:2097.160155000
+539 Producer   0 profile - BlockUsed:1558 Acquire:0 BufferUsed:3263871287
+540 Consumer   0 profile - Affinity:-1 CPUTime:20.963118320 LifeTime:1619.786957635 (0.01%)
+541                      - BlockUsed:1558 Acquire:0 BufferUsed:3263871287
+542 SimExit
